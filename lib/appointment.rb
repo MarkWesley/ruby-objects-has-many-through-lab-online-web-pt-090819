@@ -16,12 +16,12 @@ class Appointment
     @@all
   end
 
-  def doctor
-    self.new = self.new.doctor
-  end
-
-  def patient
-
-  end
+  # def doctor
+  #   
+  # end
+  # 
+  # def patient
+  # 
+  # end
 
 end
