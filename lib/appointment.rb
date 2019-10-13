@@ -22,7 +22,6 @@ class Appointment
   #
   def patient
     self.patient.new = Patient.new
-
   end
 
 end
