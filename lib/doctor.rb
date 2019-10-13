@@ -23,7 +23,7 @@ class Doctor
 
   def patients
     # binding.pry
-    Appointment.all.map {|appointment| appointment.patient}
+    Appointment.all.map.uniq {|appointment| appointment.patient}
   end
 
 end
