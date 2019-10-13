@@ -17,11 +17,11 @@ class Appointment
   end
 
   # def doctor
-  #   
+  #
   # end
-  # 
+  #
   # def patient
-  # 
+  #
   # end
 
 end
