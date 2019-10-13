@@ -20,8 +20,8 @@ class Appointment
   #
   # end
   #
-  # def patient
-  #
-  # end
+  def patient
+    Patient.new = self.patient
+  end
 
 end
