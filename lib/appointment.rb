@@ -17,11 +17,11 @@ class Appointment
   end
 
   def doctor
-    @doctor
+    self.new = self.new.doctor
   end
 
   def patient
-    @patient
+    
   end
 
 end
